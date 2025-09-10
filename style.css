@@ -1,0 +1,87 @@
+/* Base Dark Theme Style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00ffcc;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #00ffcc;
+}
+
+.card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.4);
+}
+
+a {
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    background-color: #00ffcc;
+    color: #121212;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00e6b8;
+}
+
+/* Light Mode Styles */
+body.light-mode {
+    background-color: #f0f0f0;
+    color: #121212;
+}
+
+body.light-mode .card {
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);
+}
+
+body.light-mode button {
+    background-color: #121212;
+    color: #00ffcc;
+}
